@@ -1,7 +1,27 @@
 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:var(--font-sans)}
+
+body{
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  text-rendering:optimizeLegibility;
+}
+
 .app{display:grid;grid-template-columns:1fr 300px;gap:0;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);overflow:hidden;background:var(--color-background-primary)}
 .editor{
   padding:1.5rem;
@@ -321,6 +341,34 @@ textarea:focus{
 .cr{display:flex;align-items:center;justify-content:space-between;width:100%}
 .cm{font-size:11px;color:#a8f0c0}
 .prev-lbl{font-size:11px;color:rgba(255,255,255,.7);text-align:center}
+
+input,
+textarea,
+button{
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+.cname{
+  font-weight:600;
+  letter-spacing:-0.01em;
+}
+
+.bb,
+.bh,
+.bf,
+.row-text .rt,
+.row-text .rd{
+  letter-spacing:-0.01em;
+}
+
 </style>
 
 <h2 class="sr-only">Editor WhatsApp List Menu com preview interativo de celular</h2>
